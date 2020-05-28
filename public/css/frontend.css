@@ -48196,4 +48196,37 @@ b, strong {
   right: 0;
   display: none;
 }
+
+.cursor-content {
+  cursor: none;
+}
+
+.custom-cursor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid red;
+  box-sizing: border-box;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.bol {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #28a745), color-stop(50%, #dc3545));
+  background-image: linear-gradient(to bottom, #28a745 50%, #dc3545 50%);
+}
+
+.custom-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
 /*# sourceMappingURL=frontend.css.map*/

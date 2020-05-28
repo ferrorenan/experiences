@@ -1,13 +1,6 @@
 .cursor-content {
 
-  width: 100vw;
-  height: 100vh;
   cursor: none;
-  background: #0a0c0d;
-
-  @extend .d-flex;
-  @extend .justify-content-center;
-  @extend .align-items-center;
 }
 
 .custom-cursor {
@@ -21,4 +14,19 @@
   transform: translate(-50%, -50%);
   border-radius: 50%;
   pointer-events: none;
+}
+
+.bol{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+
+  background-image: linear-gradient(to bottom, $success 50%, $danger 50%);
+}
+
+.custom-container{
+
+  overflow-x: auto;
+  white-space: nowrap;
 }
