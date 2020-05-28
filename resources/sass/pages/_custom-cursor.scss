@@ -1,0 +1,24 @@
+.cursor-content {
+
+  width: 100vw;
+  height: 100vh;
+  cursor: none;
+  background: #0a0c0d;
+
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+}
+
+.custom-cursor {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid red;
+  box-sizing: border-box;
+  transition: .1s;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+}

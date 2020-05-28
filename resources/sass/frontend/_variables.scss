@@ -1,0 +1,23 @@
+// Custom variables
+
+$fallback-font: sans-serif;
+
+$block-spacing-y: convert-to-rem(110px) !default;
+
+// Color System
+
+// Components
+$collapse-transition-time: .35s;
+
+// Navs
+$nav-toggler-size-base: 2.5rem;
+
+// Accordion
+$accordion-padding-x: 3.5rem;
+$accordion-padding-y: 1rem;
+
+// Video
+$backdrop-color: rgba($black, 0.3);
+
+// Buttons
+$btn-spinner-padding-x: 3rem;
